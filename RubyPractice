@@ -1,0 +1,17 @@
+Soooo I have been learning Ruby!
+I have created a program where you can input a number and it tells you if your number and if it is bigger, smaller or equal 5!
+Here is the code:
+
+puts "Pick an integer! "
+user_num = Integer(gets.chomp)
+
+if user_num < 5
+  print "You picked a number which is less than 5! You picked #{user_num} " 
+elsif user_num > 5
+  print "You picked a number bigger than 5! You picked: #{user_num} "
+else
+  print "You picked a number equal to 5!"
+end  
+
+Enjoy!
+  
